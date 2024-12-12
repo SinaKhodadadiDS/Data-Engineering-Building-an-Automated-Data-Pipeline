@@ -32,24 +32,22 @@
 4. **Data Storage**  
    - Built and maintained local SQL databases, addressing the importance of converting API "time" strings into MySQL-compatible `DATETIME` types.
 
+![image](https://github.com/user-attachments/assets/02808234-b51a-427c-a3d9-ea4a489d3c00)
+
+
 ## Phase 2: Migrating to the Cloud
 
 ### Transitioning to Google Cloud Platform (GCP)
 1. **Cloud SQL**  
    Configured a scalable MySQL instance on GCP, seamlessly integrating with data scripts.
 
-
-![image](https://github.com/user-attachments/assets/2dc65873-3d66-47cf-9952-fa07e0f122a6)
-
-
-3. **Cloud Functions**  
+2. **Cloud Functions**  
    - Migrated scripts to GCP using `functions_framework.http` with minor adjustments:
      - Added HTTP request handling for external triggers.
      - Used environment variables to manage sensitive data securely.
      - Resolved deployment issues, including missing dependencies and Error 500, by reviewing logs and configurations.
 
-
-4. **Cloud Scheduler**  
+3. **Cloud Scheduler**  
    Automated pipeline execution to ensure consistent and reliable data processing.
 
 ### Common Challenges in Cloud Deployment
