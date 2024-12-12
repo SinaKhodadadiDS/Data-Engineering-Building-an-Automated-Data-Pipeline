@@ -38,16 +38,18 @@
 1. **Cloud SQL**  
    Configured a scalable MySQL instance on GCP, seamlessly integrating with data scripts.
 
-2. **Cloud Functions**  
+
+![image](https://github.com/user-attachments/assets/2dc65873-3d66-47cf-9952-fa07e0f122a6)
+
+
+3. **Cloud Functions**  
    - Migrated scripts to GCP using `functions_framework.http` with minor adjustments:
      - Added HTTP request handling for external triggers.
      - Used environment variables to manage sensitive data securely.
      - Resolved deployment issues, including missing dependencies and Error 500, by reviewing logs and configurations.
 
-![image](https://github.com/user-attachments/assets/6fa24c96-01f8-40a0-8464-6909051da588)
 
-
-3. **Cloud Scheduler**  
+4. **Cloud Scheduler**  
    Automated pipeline execution to ensure consistent and reliable data processing.
 
 ### Common Challenges in Cloud Deployment
