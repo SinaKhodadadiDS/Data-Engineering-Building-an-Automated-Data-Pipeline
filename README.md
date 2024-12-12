@@ -46,6 +46,8 @@
      - Added HTTP request handling for external triggers.
      - Used environment variables to manage sensitive data securely.
      - Resolved deployment issues, including missing dependencies and Error 500, by reviewing logs and configurations.
+![image](https://github.com/user-attachments/assets/071b79fa-8556-4b90-91bc-9644805e62dc)
+
 
 3. **Cloud Scheduler**  
    Automated pipeline execution to ensure consistent and reliable data processing.
