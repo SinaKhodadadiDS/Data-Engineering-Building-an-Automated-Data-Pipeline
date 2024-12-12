@@ -44,6 +44,9 @@
      - Used environment variables to manage sensitive data securely.
      - Resolved deployment issues, including missing dependencies and Error 500, by reviewing logs and configurations.
 
+![image](https://github.com/user-attachments/assets/6fa24c96-01f8-40a0-8464-6909051da588)
+
+
 3. **Cloud Scheduler**  
    Automated pipeline execution to ensure consistent and reliable data processing.
 
